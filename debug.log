@@ -1,0 +1,35 @@
+INFO  [AWT-EventQueue-0] 2023-06-07 21:25:27,625 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/edualonso/eclipse-workspace/SocialMediaFakenNews/output/config.props
+INFO  [AWT-EventQueue-0] 2023-06-07 21:25:27,824 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	/Users/edualonso/eclipse-workspace/SocialMediaFakenNews/batch/batch_params.xml to
+	/var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/unrolledParamFile.txt
+INFO  [AWT-EventQueue-0] 2023-06-07 21:26:43,488 repast.simphony.batch.gui.BatchConfigMediator - Writing batch run config file to: /Users/edualonso/eclipse-workspace/SocialMediaFakenNews/output/config.props
+INFO  [AWT-EventQueue-0] 2023-06-07 21:26:43,492 repast.simphony.batch.gui.BatchConfigMediator - Unrolling batch parameter file:
+	/Users/edualonso/eclipse-workspace/SocialMediaFakenNews/batch/batch_params.xml to
+	/var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/unrolledParamFile.txt
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:26:58,086 repast.simphony.batch.ssh.LocalSession - 
+	Copying locally /var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/edualonso_localhost4074990863521320884.zip to 
+/var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/simphony_model_1686166014721 ...
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:26:58,321 repast.simphony.batch.ssh.LocalSession - Copying Finished.
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:26:58,325 repast.simphony.batch.ssh.SessionsDriver - Initialization Time: 0,0600
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:26:58,326 repast.simphony.batch.ssh.LocalSession - Unzipping model /var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/simphony_model_1686166014721/edualonso_localhost4074990863521320884.zip
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:26:59,376 repast.simphony.batch.ssh.LocalSession - Running model on localhost ...
+INFO  [Thread-4] 2023-06-07 21:27:23,991 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-4] 2023-06-07 21:27:23,993 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/private/var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/simphony_model_1686166014721/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-4] 2023-06-07 21:27:23,993 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-4] 2023-06-07 21:27:23,993 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-4] 2023-06-07 21:27:23,993 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-4] 2023-06-07 21:27:24,029 repast.simphony.batch.ssh.LocalSession - WARNING: An illegal reflective access operation has occurred
+INFO  [Thread-4] 2023-06-07 21:27:24,029 repast.simphony.batch.ssh.LocalSession - WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/private/var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/simphony_model_1686166014721/lib/xstream-1.4.7.jar) to field java.util.TreeMap.comparator
+INFO  [Thread-4] 2023-06-07 21:27:24,029 repast.simphony.batch.ssh.LocalSession - WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+INFO  [Thread-4] 2023-06-07 21:27:24,029 repast.simphony.batch.ssh.LocalSession - WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO  [Thread-4] 2023-06-07 21:27:24,029 repast.simphony.batch.ssh.LocalSession - WARNING: All illegal access operations will be denied in a future release
+INFO  [Thread-4] 2023-06-07 21:27:24,361 repast.simphony.batch.ssh.LocalSession - Creating topology Barabasi-Albert
+INFO  [Thread-4] 2023-06-07 21:27:24,969 repast.simphony.batch.ssh.LocalSession - Created Model 0.01
+INFO  [pool-2-thread-1] 2023-06-07 21:27:59,398 repast.simphony.batch.ssh.LocalDonePoller - Polled /var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/simphony_model_1686166014721 for DONE:  yes
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:27:59,403 repast.simphony.batch.ssh.SessionsDriver - Run Time: 1,0179
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:27:59,437 repast.simphony.batch.ssh.LocalSession - Finding output on localhost in /var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/simphony_model_1686166014721
+WARN  [SwingWorker-pool-1-thread-1] 2023-06-07 21:27:59,485 repast.simphony.batch.ssh.OutputFinder - No model output found matching glob:{**/,}SocialSharing*.batch_param_map.txt in /var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/simphony_model_1686166014721/instance_2
+WARN  [SwingWorker-pool-1-thread-1] 2023-06-07 21:27:59,485 repast.simphony.batch.ssh.OutputFinder - No model output found matching glob:{**/,}ModelOutput*.batch_param_map.txt in /var/folders/5q/1m_wrq6j0d13hp3c_tw27xk40000gn/T/simphony_model_1686166014721/instance_2
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:27:59,488 repast.simphony.batch.ssh.SessionsDriver - Aggregating output into /Users/edualonso/eclipse-workspace/SocialMediaFakenNews/output
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:27:59,500 repast.simphony.batch.ssh.SessionsDriver - Get Output Time: 0,0016
+INFO  [SwingWorker-pool-1-thread-1] 2023-06-07 21:27:59,501 repast.simphony.batch.ssh.SessionsDriver - Finished. Elapsed Time: 1,0799
