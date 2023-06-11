@@ -1,0 +1,7 @@
+<context id="SocialMediaFakenNews_Context" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+
+    <projection type="continuous space" id="SocialMediaFakenNews_Space"/>
+    <projection type="grid" id="SocialMediaFakenNews_Grid"/>
+    <projection type="network" id="SocialMediaFakenNews_Network"/>
+  	
+</context>
