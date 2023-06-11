@@ -1,0 +1,49 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.8.0">
+  <name>Sharing</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>704864193</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map">
+    <entry>
+      <string>Believers</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Believers</id>
+        <className>socialMediaFakenNews.agent.Agent</className>
+        <methodName>isBeleiver</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>Deniers</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>Deniers</id>
+        <className>socialMediaFakenNews.agent.Agent</className>
+        <methodName>isFactChecker</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>BelieversSharing</string>
+      <repast.simphony.data2.engine.MethodDataSourceDefinition>
+        <id>BelieversSharing</id>
+        <className>socialMediaFakenNews.agent.Agent</className>
+        <methodName>isSharingFakeNews</methodName>
+        <aggType>SUM</aggType>
+      </repast.simphony.data2.engine.MethodDataSourceDefinition>
+    </entry>
+  </methodDataSources>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

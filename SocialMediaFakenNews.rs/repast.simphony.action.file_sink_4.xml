@@ -1,0 +1,14 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.8.0">
+  <name>ResultWithSharing</name>
+  <dataSet>Sharing</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>Believers</string>
+    <string>Deniers</string>
+    <string>BelieversSharing</string>
+    <string>tick</string>
+  </sourceIds>
+  <fileName>SocialSharing.txt</fileName>
+  <addTimeStamp>true</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>
